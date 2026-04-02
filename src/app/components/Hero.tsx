@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import profilePic from 'figma:asset/50cef7b5228de6bbfc7d570b06076abd0ed154b7.png';
+const profilePic = '/profile_pic.png';
 
 const Sparkle = ({ className }: { className?: string }) => (
   <motion.div
